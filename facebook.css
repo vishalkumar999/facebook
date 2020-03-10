@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+::placeholder{
+    color: white;
+   
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+header{
+    background: #3b5998;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    margin-top: 15%;
+}
+
+.input{
+    /* border: 1px solid red; */
+    display: block;
+    width: 100vw;
+}
+.input input[type=text]{
+    width: 34vw;
+    background: #3b5998;
+    border:none;
+    border-bottom: 1px solid #fff;
+}
+.input input[type=password]{
+    width: 34vw;
+    background: #3b5998;
+    border:none;
+    border-bottom: 1px solid #fff;
+}
+.input input[type=button]{
+    width: 34vw;
+    border: none;
+    background:#456dc3;
+    color: #fff;
+}
+.icon{
+    font-size: 1.8rem;
+    color: #fff;
+    position: absolute;
+    left: 90%;
+    top: 91%;
+}
+

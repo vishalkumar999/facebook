@@ -1,0 +1,18 @@
+.input input[type=text]{
+    width: 90vw;
+   
+}
+.input input[type=password]{
+    width: 90vw;
+   
+}
+.input input[type=button]{
+    width: 90vw;
+    
+}
+
+/* pata nahi ki yeh niche likha hua code kaam kyo nahi kar raha aur uppar wala kar raha hain.. lekin mere hisab se toh code dono hi sahi likhe hain mene */
+
+/* header .input input{
+    width: 90vw;
+} */
